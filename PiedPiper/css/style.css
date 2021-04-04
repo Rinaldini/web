@@ -1,0 +1,235 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 1219px;
+    box-sizing: content-box;
+    padding: 0 55px;
+}
+
+.header {
+    height: 84px;
+    background: #007765;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    padding-left: 55px;
+    padding-top: 20px;
+    float: left;
+}
+
+.logo img {
+    width: 184px;
+}
+
+.menu {
+    font-family: 'Roboto Condensed', sans-serif;
+    float: right;
+    padding-right: 54px;
+    padding-top: 16px;
+}
+
+.menuList {
+    float: left;
+    padding: 13px 8px;
+    list-style-type: none;
+}
+
+.menuList a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    border-right: 1px solid #fff;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menuList a:last-child {
+    border-right: none;
+}
+
+.jumbotron {
+    height: 403px;
+    background-image: url(../img/frame1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 160px;
+}
+
+.problem {
+    background: #EEEEEE;
+}
+
+.problem p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding: 0px 54px 92px 55px;
+}
+
+.problem h1 {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+.anchor {
+    height: 48px;
+}
+
+.hero {
+    height: 483px;
+    background-image: url(../img/frame2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero p {
+    padding: 127px 163px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ppclogo {
+    float: left;
+    padding: 0 48px 20px 0;
+}
+
+.ppc {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding: 0 55px 92px 54px;
+    background: #FFFFFF;
+}
+
+.ppc h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    padding: 48px 55px 16px 55px;
+    margin: 0px;
+}
+
+.team {
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.team h1 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    padding-bottom: 17px;
+    padding-top: 48px;
+}
+
+.team_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 39px 94px 39px;
+}
+
+.team__member {
+    height: 283px;
+    width: 350px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 24px;
+}
+
+.member__name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #007765;
+    padding-top: 12px;
+}
+
+.member__position {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer {
+    height: 176px;
+    background: #333333;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 48px 340px 64px 340px;
+}
