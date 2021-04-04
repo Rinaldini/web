@@ -1,2 +1,2 @@
 # web
-Landing page
+Example of UBER EATS
