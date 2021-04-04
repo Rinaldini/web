@@ -1,4 +1,3 @@
 # web
-Example of UBER EATS
-and 
-landing page example
+UBER EATS - example
+PiedPiper - landing page example
